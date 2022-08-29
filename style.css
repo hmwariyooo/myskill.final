@@ -1,0 +1,411 @@
+@import url("https://fonts.googleapis.com/css2?family=Joan&family=Merienda:wght@700&family=Roboto+Slab&family=Vidaloka&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Joan", serif;
+}
+.hero {
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  position: fixed;
+}
+
+.logo {
+  width: 200px;
+  cursor: pointer;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px 5px 0px;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  color: rgb(48, 119, 201);
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(196, 192, 192);
+  transition: 0.3s;
+}
+
+.button1 {
+  border: none;
+  background-color: rgb(0, 192, 128);
+  color: white;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.button1:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  background-image: url(assets/HD\ OFFICE\ 1.jpg);
+  width: 100%;
+  min-height: 600px;
+  background-size: 100%;
+  background-position: 10% 60%;
+  background-repeat: no-repeat;
+}
+.banner {
+  font-size: 40px;
+  padding-top: 120px;
+  padding-left: 50px;
+}
+.judul {
+  text-align: center;
+  line-height: 50px;
+  font-size: larger;
+}
+.judul .episodeone {
+  color: rgb(255, 166, 0);
+}
+.judul h2 {
+  font-size: 40px;
+}
+.judul span {
+  color: green;
+  font-size: 30px;
+  padding: 20px;
+}
+.artikelbackground {
+  background: linear-gradient(45deg, #8bdf76, #ffffff, #ffffff, #74b810);
+  padding-bottom: 10%;
+  background-size: 300% 300%;
+  animation: color 9s ease-in-out infinite;
+}
+@keyframes color {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.artikel1 {
+  width: 900px;
+  margin: 0 auto;
+}
+.artikel1 h1 {
+  padding: 50px;
+}
+.artikel1 .logoMyskill {
+  float: left;
+  position: left;
+}
+.artikel1 p {
+  overflow: auto;
+  padding-left: 30px;
+  line-height: 27px;
+  font-size: 18px;
+}
+.artikel1 .logoMyskill {
+  padding-top: 15px;
+}
+.artikel1 p a {
+  text-decoration: none;
+}
+
+.artikel2 {
+  width: 900px;
+  margin: 0 auto;
+}
+.artikel2 h1 {
+  padding: 50px;
+  padding-top: 80px;
+}
+
+.content1 {
+  overflow: auto;
+  margin-left: 30px;
+}
+.content1 img {
+  width: 150px;
+  height: 150px;
+}
+.card1 {
+  float: left;
+  padding: 20px;
+  margin: 20px;
+  width: 230px;
+  height: 270px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px 2px rgb(185, 185, 185);
+  background-color: #76ba99;
+  text-align: center;
+  cursor: pointer;
+}
+.card1:hover {
+  transform: scale(1.1);
+}
+.card2 {
+  float: left;
+  padding: 20px;
+  margin: 20px;
+  width: 230px;
+  height: 270px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px 2px rgb(185, 185, 185);
+  background-color: #adcf9f;
+  text-align: center;
+  cursor: pointer;
+}
+.card2:hover {
+  transform: scale(1.1);
+}
+.card3 {
+  float: left;
+  padding: 20px;
+  margin: 20px;
+  width: 230px;
+  height: 270px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px 2px rgb(185, 185, 185);
+  background-color: #ced89e;
+  text-align: center;
+  cursor: pointer;
+}
+.card3:hover:hover {
+  transform: scale(1.1);
+}
+.card4 {
+  float: left;
+  padding: 20px;
+  margin: 20px;
+  width: 230px;
+  height: 270px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px 2px rgb(185, 185, 185);
+  background-color: #b09b71;
+  text-align: center;
+  cursor: pointer;
+}
+.card4:hover:hover {
+  transform: scale(1.1);
+}
+.card5 {
+  float: left;
+  padding: 20px;
+  margin: 20px;
+  width: 230px;
+  height: 270px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px 2px rgb(185, 185, 185);
+  background-color: #d8cca3;
+  text-align: center;
+  cursor: pointer;
+}
+.card5:hover {
+  transform: scale(1.1);
+}
+.card6 {
+  float: left;
+  padding: 20px;
+  margin: 20px;
+  width: 230px;
+  height: 270px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px 2px rgb(185, 185, 185);
+  background-color: #d8cca3;
+  text-align: center;
+  cursor: pointer;
+}
+.card6:hover {
+  transform: scale(1.1);
+}
+.artikel3 {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.artikel3 h1 {
+  padding: 50px;
+  padding-top: 80px;
+  margin-bottom: 50px;
+}
+
+.artikel3 ol {
+  padding-left: 50px;
+}
+
+.artikel3 ol li {
+  line-height: 40px;
+  font-size: 25px;
+  padding-left: 10px;
+}
+.bgartikel3 {
+  margin-top: 200px;
+  border-radius: 25px 0 0 25px;
+  float: right;
+  width: 500px;
+  height: 400px;
+}
+
+.artikel4 {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+.artikel4 h1 {
+  padding: 100px 50px;
+}
+table {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.artikel4 table td {
+  height: 80px;
+  width: 300px;
+}
+table th {
+  height: 100px;
+  background-color: #0ead8d;
+  color: white;
+  font-size: 24px;
+}
+
+.artikel4 .check {
+  width: 40px;
+  height: 40px;
+}
+.warna1 {
+  background-color: #f8d5d9;
+}
+.warna2 {
+  background-color: #c6ebe4;
+}
+.warna3 {
+  background-color: #e7f7f4;
+}
+.warna4 {
+  background-color: #f8f9fb;
+}
+
+.parallax1 {
+  background-image: url(assets/HD\ COM\ 1.webp);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+  width: 100%;
+  /* margin-top: 10%; */
+}
+.parallax1 h1 {
+  text-align: center;
+  color: white;
+  letter-spacing: 10px;
+  padding-top: 10%;
+}
+.review {
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 40%;
+}
+
+.review1 {
+  float: left;
+  padding: 20px;
+  margin: 20px;
+  width: 400px;
+  height: 300px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px 2px rgb(185, 185, 185);
+  background-color: #f5f5f5;
+  text-align: start;
+  cursor: pointer;
+  padding-bottom: 10px;
+}
+.review1:hover {
+  transform: scale(1.1);
+}
+.review1 .paspoto {
+  width: 100px;
+  height: 100px;
+  border-radius: 150px;
+  float: left;
+}
+.review1 h3 {
+  padding-left: 32%;
+}
+.review1 h5 {
+  font-weight: lighter;
+  padding-left: 32%;
+}
+.review1 .bintang {
+  width: 200px;
+  padding-left: 10%;
+  padding-top: 10px;
+}
+.datadiri {
+  padding-left: 35%;
+}
+.review h2 {
+  color: #0ead8d;
+  padding: 40px 0 50px;
+}
+
+.review1 p {
+  font-size: 18px;
+}
+.btncmnt {
+  color: white;
+  background-color: #0ead8d;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  padding-top: 10px;
+  margin-top: 15px;
+  box-shadow: 5px 5px 4px 0.5px rgb(185, 185, 185);
+  cursor: pointer;
+}
+.site-footer {
+  width: 100%;
+  margin: 0 auto;
+  height: 300px;
+  border-radius: 50px 50px 0 0;
+  background-color: #e2e4e3;
+}
+
+.site-footer .footerbox {
+  padding-left: 20px;
+  width: 22%;
+  float: left;
+  margin: 30px;
+  padding: 40px;
+  padding-left: 8%;
+  cursor: pointer;
+}
+.site-footer h2 {
+  padding-bottom: 20px;
+  clear: left;
+}
+.closing img {
+  float: left;
+  width: 250px;
+}
